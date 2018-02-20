@@ -9,7 +9,7 @@ vector<unsigned int> A ={1,3,1,4,2,3,5,4};
 void print_vec(vector<unsigned int> A){
     int s = A.size();
     for (int i = 0; i < s; ++i) {
-        cout << A[i] << " ";
+//        cout << A[i] << " ";
 
     }
     cout << endl;
@@ -23,7 +23,7 @@ int solution(int X, vector<unsigned int> &A){
 //    vector<unsigned int> IDX (s,0);
     unsigned int Counter=0;
     for (int i = 0; i <s ; ++i) {
-        cout << i << endl;
+//        cout << i << endl;
         if(A[i]<=X & Count[A[i]]==0){
             Count[A[i]]=1;
             ++Counter;
